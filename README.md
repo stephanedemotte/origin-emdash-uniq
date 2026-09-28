@@ -51,6 +51,11 @@ The hook receives the field values only. It doesn't know the entry's locale, nor
 
 This depends on the admin's DOM, which is not a public API. The server guard holds whatever the admin shows.
 
+## Upstream
+
+- Core singleton collections: [emdash-cms/emdash#2631](https://github.com/emdash-cms/emdash/discussions/2631). We added the per-locale case there.
+- `locale` and `translationOf` in `content:beforeSave`, which would allow a sandboxed version of this plugin: [emdash-cms/emdash#3560](https://github.com/emdash-cms/emdash/discussions/3560).
+
 ## License
 
 MIT
