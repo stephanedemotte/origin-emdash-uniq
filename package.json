@@ -1,0 +1,20 @@
+{
+  "name": "origin-emdash-uniq",
+  "version": "1.0.0",
+  "description": "Singleton collections for EmDash: one entry per locale for pages like Home or About.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Stephane Demotte",
+  "repository": { "type": "git", "url": "git+https://github.com/stephanedemotte/origin-emdash-uniq.git" },
+  "keywords": ["emdash", "emdash-plugin", "cms", "singleton"],
+  "exports": {
+    ".": "./src/index.js",
+    "./runtime": "./src/runtime.js",
+    "./admin": "./src/admin.js",
+    "./middleware": "./src/middleware.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "peerDependencies": {
+    "emdash": ">=1.0.1 <2.0.0"
+  }
+}
